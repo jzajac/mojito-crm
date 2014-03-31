@@ -1,0 +1,13 @@
+{
+  "name": "mojito",
+  "version": "0.0.1",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "angular": "",
+    "angular-route": ""
+  }
+}

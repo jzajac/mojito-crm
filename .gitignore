@@ -1,0 +1,9 @@
+src/Mojito.Web/obj/
+src/Mojito.Web/bin/
+src/Mojito.Components/obj/
+src/Mojito.Components/bin/
+src/Mojito.BusinessLogic/obj/
+src/Mojito.BusinessLogic/bin/
+src/Mojito.API/obj/
+src/Mojito.API/bin/
+src/Mojito.Web/bower/
