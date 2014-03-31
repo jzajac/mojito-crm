@@ -10,7 +10,7 @@ namespace Mojito.API
         {
             Get["/"] = parameters =>
             {
-                var json = Encoding.UTF8.GetBytes("{'message': 'hello'}");
+                var json = Encoding.UTF8.GetBytes("hello");
 
                 return new Response
                 {

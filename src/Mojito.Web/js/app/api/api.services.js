@@ -5,7 +5,12 @@
 angular.module('api.services', ['shared.services'])
     .service('accountApi', ['webservice', function(webservice) {
             return {
-                // Stub impl
+                test: function () {
+                    return webservice.call('GET', 'http://localhost:12008/', null)
+                        .then(function (data) {
+                            return data;
+                        });
+                },
             }
         }
     ]);

@@ -80,6 +80,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="js\app\api\api.js" />
+    <Content Include="js\app\api\api.services.js" />
+    <Content Include="js\app\app.js" />
+    <Content Include="js\app\home\home.controllers.js" />
+    <Content Include="js\app\home\home.js" />
+    <Content Include="js\app\shared\shared.services.js" />
+    <Content Include="js\app\shared\shared.js" />
+    <Content Include="templates\test.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -95,6 +104,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bower\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
