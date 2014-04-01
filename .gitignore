@@ -9,3 +9,5 @@ src/Mojito.API/bin/
 src/Mojito.Web/bower/
 src/Mojito.Console/bin/
 src/Mojito.Console/obj/
+src/Mojito.Dal/bin/
+src/Mojito.Dal/obj/
