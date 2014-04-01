@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mojito.API", "Mojito.API\Mojito.API.csproj", "{ED638DD5-E755-4B7A-940D-5C94AB425686}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mojito.BusinessLogic", "Mojito.BusinessLogic\Mojito.BusinessLogic.csproj", "{636B55F7-7619-4C5D-9859-879DBECEA6D1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mojito.Components", "Mojito.Components\Mojito.Components.csproj", "{F6063983-E0B7-4B18-AC58-01127C014C21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3F9B8DEE-455A-4289-9779-581E8E3F26E6}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3F9B8D
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mojito.Web", "Mojito.Web\Mojito.Web.csproj", "{73639C8B-2908-446F-81EC-8B7E9E83D583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mojito.Console", "Mojito.Console\Mojito.Console.csproj", "{E811C5F3-64A3-4C73-B023-3086C50BF337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mojito.Dal", "Mojito.Dal\Mojito.Dal.csproj", "{F6063983-E0B7-4B18-AC58-01127C014C21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,14 +32,18 @@ Global
 		{636B55F7-7619-4C5D-9859-879DBECEA6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{636B55F7-7619-4C5D-9859-879DBECEA6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{636B55F7-7619-4C5D-9859-879DBECEA6D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6063983-E0B7-4B18-AC58-01127C014C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6063983-E0B7-4B18-AC58-01127C014C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6063983-E0B7-4B18-AC58-01127C014C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6063983-E0B7-4B18-AC58-01127C014C21}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73639C8B-2908-446F-81EC-8B7E9E83D583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73639C8B-2908-446F-81EC-8B7E9E83D583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73639C8B-2908-446F-81EC-8B7E9E83D583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73639C8B-2908-446F-81EC-8B7E9E83D583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E811C5F3-64A3-4C73-B023-3086C50BF337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E811C5F3-64A3-4C73-B023-3086C50BF337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E811C5F3-64A3-4C73-B023-3086C50BF337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E811C5F3-64A3-4C73-B023-3086C50BF337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6063983-E0B7-4B18-AC58-01127C014C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6063983-E0B7-4B18-AC58-01127C014C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6063983-E0B7-4B18-AC58-01127C014C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6063983-E0B7-4B18-AC58-01127C014C21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

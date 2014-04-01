@@ -14,6 +14,11 @@ public const string OutputPath = RootPath + @"\Output";
 	Cmd.Exec(@"src\.nuget\Nuget.exe restore");
 }
 
+[Task] public static void SetupDatabase()
+{
+	Cmd.Exec(@"src\Mojito.Console\bin\Debug\Mojito.Console.exe -s");
+}
+
 /// <summary> 
 /// Very simple demo task. See other demo tasks for more useful stuff ;)
 /// </summary>

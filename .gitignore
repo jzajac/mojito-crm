@@ -7,3 +7,5 @@ src/Mojito.BusinessLogic/bin/
 src/Mojito.API/obj/
 src/Mojito.API/bin/
 src/Mojito.Web/bower/
+src/Mojito.Console/bin/
+src/Mojito.Console/obj/

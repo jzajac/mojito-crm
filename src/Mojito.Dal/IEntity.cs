@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ServiceStack.DataAnnotations;
 
-namespace Mojito.Components.Models
+namespace Mojito.Dal
 {
-    public class Account
+    public interface IEntity
     {
-
+        int Id { get; set; }
     }
 }
