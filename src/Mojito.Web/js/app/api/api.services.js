@@ -3,10 +3,10 @@
 'use strict';
 
 angular.module('api.services', ['shared.services'])
-    .service('accountApi', ['webservice', function(webservice) {
+    .service('taskApi', ['webservice', function(webservice) {
             return {
-                test: function () {
-                    return webservice.call('GET', 'http://localhost:12008/', null)
+                fetchAll: function () {
+                    return webservice.call('GET', 'http://localhost:8080/task/', null)
                         .then(function (data) {
                             return data;
                         });

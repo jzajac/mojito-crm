@@ -3,13 +3,13 @@
 'use strict';
 
 angular.module('home.controllers', ['api'])
-	.controller('HomeController', ['$scope', '$q', 'accountApi', function ($scope, $q, accountApi) {
+	.controller('HomeController', ['$scope', '$q', 'taskApi', function ($scope, $q, taskApi) {
 
         $scope.queryEndpoint = function() {
             var defer = $q.defer();
 
-            accountApi.test().then(function(data) {
-                $scope.test = data;
+            taskApi.fetchAll().then(function(data) {
+                $scope.tasks = data;
             });
 
             return defer.promise;
