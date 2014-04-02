@@ -12,7 +12,7 @@ namespace Mojito.Dal.Factories
     {
         public static OrmLiteConnectionFactory GetClient()
         {
-            return new OrmLiteConnectionFactory("Data Source=.\\SQLEXPRESS;Initial Catalog=mojito;Integrated Security=True", SqlServerDialect.Provider);
+            return new OrmLiteConnectionFactory("Data Source=.\\SQLEXPRESS;Initial Catalog=mojito;User id=sa;Password=password", SqlServerDialect.Provider);
         }
     }
 }

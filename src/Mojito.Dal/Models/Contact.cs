@@ -7,7 +7,7 @@ using ServiceStack.DataAnnotations;
 
 namespace Mojito.Dal.Models
 {
-    public class Contact : IEntity
+    public class Contact : IBaseEntity
     {
         [AutoIncrement]
         public int Id { get; set; }
@@ -16,5 +16,7 @@ namespace Mojito.Dal.Models
 
         public string LastName { get; set; }
         
+        public string Company { get; set; }
+
     }
 }

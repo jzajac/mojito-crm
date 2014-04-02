@@ -7,7 +7,7 @@ using ServiceStack.DataAnnotations;
 
 namespace Mojito.Dal
 {
-    public interface IEntity
+    public interface IBaseEntity
     {
         int Id { get; set; }
     }

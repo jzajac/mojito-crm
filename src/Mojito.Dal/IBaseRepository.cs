@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mojito.Dal
 {
-    public interface IRepository<T> where T : IEntity
+    public interface IRepository<T> where T : IBaseEntity
     {
         T FindById(int id);
 
@@ -15,7 +15,5 @@ namespace Mojito.Dal
         void Save(T entity);
 
         void Delete(int id);
-
-        void CreateTable();
     }
 }

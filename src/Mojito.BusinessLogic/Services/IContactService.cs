@@ -7,16 +7,8 @@ using Mojito.Dal.Models;
 
 namespace Mojito.BusinessLogic.Services
 {
-    public interface IContactService
+    public interface IContactService : IBaseService<Contact>
     {
-        Contact FindById(int id);
-
-        List<Contact> FindAll();
-
         List<Contact> FindByCompany(string companyName);
-
-        void Save(Contact entity);
-
-        void Delete(int id);
     }
 }

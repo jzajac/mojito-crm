@@ -9,10 +9,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Mojito.Dal</RootNamespace>
     <AssemblyName>Mojito.Dal</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -80,10 +81,12 @@
   <ItemGroup>
     <Compile Include="Factories\DbFactory.cs" />
     <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IEntity.cs" />
-    <Compile Include="IRepository.cs" />
+    <Compile Include="IBaseEntity.cs" />
+    <Compile Include="IBaseRepository.cs" />
     <Compile Include="Repository\ContactRepository.cs" />
+    <Compile Include="Repository\TaskRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
