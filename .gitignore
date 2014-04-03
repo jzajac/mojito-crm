@@ -11,3 +11,5 @@ src/Mojito.Console/bin/
 src/Mojito.Console/obj/
 src/Mojito.Dal/bin/
 src/Mojito.Dal/obj/
+.sass-cache/
+node_modules/
